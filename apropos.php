@@ -1,56 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Portfolio</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Monoton" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-</head>
-
-<body>
-
-<!-- 
+<!--
   ~~~~~~~~~~ | Star Header |~~~~~~~~~~~
 -->
-<header>
-  <nav>
-    <div class="contener_nav">
-      <div class="contener_image">
-       <!-- <img src="img/logojj.png" alt="Logo JJ" height="150px" width="150px">-->
-      </div>
-    </div>
-      <div class="contener_class">
-      <ul>
-        <li><a href="index.html" class="premier">Mes Travaux</a></li>
-        <li><a href="apropos.html" class="deux">A Propos</a></li>
-        <li><a href="contact.html" class="trois">Contact</a></li>
-      </ul>
-      </div>
-    </div>
-  </nav>
-<div class="contener_nav_tel">
-  <img src="img/logojj.png" alt="logo JJ" height="60px" width ="60px">
-  <i class="fas fa-bars fa-3x"></i>
-</div>
-</header> 
-<!-- 
+<?php
+include "template/nav.php";
+?>
+<!--
   ~~~~~~~~~~ | End Header |~~~~~~~~~~~
 -->
 
 
-
-<!-- 
+<!--
   ~~~~~~~~~~ | Star Main |~~~~~~~~~~~
 -->
  <main>
@@ -62,7 +21,7 @@
          <h3>Jonathan JACQUET</h3>
          <p>Diplomé d'un BTS Assistant de Manager, mais n'étant pas un domaine professionnel qui m'interessais réellement, j'ai décidé de changer de voie.
              Je me suis dans un premier temps tourné vers le design et l'infographie. Pour finalement arriver dans le développement web.
-             Durant toutes mes années d'études, j'ai eu l'occasion de travailler tres souvent en équipe sur des projets avec des deadlines a respecter. 
+             Durant toutes mes années d'études, j'ai eu l'occasion de travailler tres souvent en équipe sur des projets avec des deadlines a respecter.
              J'ai pu également acquérir quelques notions de design. Notamment, grâce à l'utilisation de logiciels de design, tel que Illustrator, Indesign ou Photoshop.
              Actuellement, je suis en formation de developpeur web (Simplon.co) au sein de l'A.D.E.P de Roubaix. Si mon profil vous intéresse, contactez-moi.
          </p>
@@ -110,44 +69,20 @@
      </section>
     </div>
  </main>
-<!-- 
+<!--
   ~~~~~~~~~~ | End Main |~~~~~~~~~~~
 -->
+
 
 
 <!--
   ~~~~~~~~~ | Star Footer | ~~~~~~~~
 -->
-<footer>
-  <div class="link_RS">
-    <a href=""><i class="fab fa-facebook-f fa-3x"></i></a>
-    <a href=""><i class="fab fa-twitter fa-3x"></i></a>
-    <a href=""><i class="fab fa-linkedin-in fa-3x"></i></a>
-    <a href =""><i class="fab fa-github fa-3x"></i></a>
-  </div>
-  <div class="link_RS_contact">
-    <a href="" class="zero"><i class="fab fa-facebook-f fa-3x"></i></a>
-    <a href="" class="premier"><i class="fab fa-twitter fa-3x"></i></a>
-    <a href="" class="deux"><i class="fab fa-linkedin-in fa-3x"></i></a>
-    <a href ="" class="trois"><i class="fab fa-github fa-3x"></i></a>
-        </div>
-</footer>
+
+<?php
+include "template/footer.php";
+ ?>
 
 <!--
   ~~~~~~~~ | End Footer | ~~~~~~~~~~
 -->
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
-
-</html>
